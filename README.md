@@ -11,15 +11,17 @@ Setup dictionary:
 
 For more detail view on test.php
 
-> **Example Output:**
->\> php test.php https://www.google.com/
->Original length 23:
->https://www.google.com/
->
->Encrypted length 3:
->ü/
->
->Decrypted length 23:
->https://www.google.com/
+**Example Output:**
 
->Compressed Ratio: **86.96%**
+    php test.php https://www.google.com/
+    
+    Original length 23:
+    https://www.google.com/
+    
+    Encrypted length 3:
+    ü/
+    
+    Decrypted length 23:
+    https://www.google.com/
+    
+    Compressed Ratio: **86.96%**
